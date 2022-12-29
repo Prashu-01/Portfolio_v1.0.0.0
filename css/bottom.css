@@ -9,9 +9,9 @@
     .bottom{
         margin: auto;
         width: 400px;
-        display: flex;
+        /* display: flex; */
         border-top-left-radius: 60px;
-        justify-content: space-around;
+        /* justify-content: space-around; */
         
     }
     .social{
@@ -27,8 +27,8 @@
     }
     .email{
         color: whitesmoke;
-        margin-top: 30px;
-        margin-left: 42%;
+        /* margin-top: 30px;
+        margin-left: 42%; */
     }
     .mg{
         color: rgb(54, 54, 54);
@@ -65,7 +65,10 @@
     }
     .email{
         color: whitesmoke;
-        margin-top: 30px;
-        margin-left: 30%;
+        /* margin-top: 30px;
+        margin-left: 30%; */
     }
+}
+.contacts{
+    
 }

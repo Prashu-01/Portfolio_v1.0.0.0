@@ -5,14 +5,7 @@
         justify-content: space-between;
         /* animation: inco .5s 1 ease-out; */
     }
-    /* @keyframes inco {
-        from{
-            margin-top: -5px;
-        }
-        to{
-            margin-top: 5px;
-        }
-    } */
+
 
     img {
         height: 70px;

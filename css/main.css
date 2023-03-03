@@ -1,11 +1,15 @@
+*{
+    transition: all 0.5s;
+}
+
 .sk {
     /* background-image: linear-gradient(270deg, #252525 -23%, #141414 137%); */
     margin-top: 100px;
-    width: 20%;
+    width: 20rem;
     height: 40rem;
     
     border-radius: 10px;
-    transition: all 1s;
+    /* transition: all 1s; */
 }
 .sk-name{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,8 +22,8 @@
     transform: scale(5);
 }
 .custom{
-    box-shadow: inset -2px -3px 20px #252525; 
-    background-image: linear-gradient(270deg, #252525 -23%, #141414 137%);
+    box-shadow: inset -2px -3px 20px #3b3b3b;
+    background-image: linear-gradient(270deg, #282828 -23%, #323232 137%);
 }
 
 .ph{
@@ -36,9 +40,10 @@
     margin: 20px;
     color: rgb(223, 223, 223);
 }
-.profile {
-    transition: all .5s;
-}
+/* .profile {
+    width: 1rem;
+    height:1rem;
+} */
 
 .profile:hover {
     transform: scale(1.1) !important;
@@ -121,25 +126,11 @@
     .meriphoto {
         height: 90%;
         width: 450px;
-        transition: transform 0.5s;
+        /* transition: transform 0.5s; */
     }
 
     #about {
-
-        border-top-left-radius: 90%;
-        /* background-image: linear-gradient(270deg, #282828 -23%, #131313 137%); */
         background-image: linear-gradient(189deg, #1c1c1c -23%, #131313 137%);
-        padding-left: 30%;
-        display: flex;
-        justify-content: space-between;
-        height: auto;
-    }
-
-    .dev {
-        /* margin-top: 50px; */
-        margin-left: 30px;
-        transform: scale(1.5) translateY(10px);
-        filter: drop-shadow(2px 2px 5px rgba(225, 225, 225, 0.5));
     }
 
     .bg {
@@ -147,7 +138,10 @@
         height: 700px;
         width: auto;
     }
-
+    .profile{
+        height: 4rem;
+        width: 4rem;
+    }
     p{
         padding: 20px;
         font-size: 1.2rem;
@@ -161,16 +155,20 @@
         transition: all .5s;
 
     }
-
+    .p-1{
+        /* margin: auto; */
+        width: 30%;
+    }
     .p1 {
-        margin-top: 50px;
+        display: flex;
+        margin: 5rem 0rem;
     }
 
     p:hover {
         background-color: rgb(238, 2, 2);
         color: whitesmoke;
         box-shadow: 0px 0px 0px;
-        transform: translateY(-20px);
+        transform: translateY(-1rem);
         /* margin-top: -50px; */
     }
 

@@ -2,7 +2,7 @@
 <script>
     var typed = new Typed(".typE", {
         strings: ["Coder", "Front-end Developer", "Videographer", "Photographer"],
-    typeSpeed: 100,
-    loop: true,
+        typeSpeed: 100,
+        loop: true,
         })
 </script>

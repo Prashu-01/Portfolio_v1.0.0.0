@@ -3,6 +3,9 @@
     #navbar {
         display: flex;
         justify-content: space-between;
+        width: 100%;
+        position: fixed;
+        /* margin: 1rem; */
         /* animation: inco .5s 1 ease-out; */
     }
 
